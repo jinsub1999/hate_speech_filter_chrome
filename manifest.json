@@ -1,9 +1,13 @@
 {
-    "name": "Hate Speech Filter",
-    "description": "Using Vue.js to filter hate speech(korean)",
-    "version": "0.0.1",
-    "manifest_version": 3,
-    "action": {
-      "default_popup": "index.html"
-    }
-  }
+  "name": "Hate Speech Filter",
+  "version": "0.1.0",
+  "manifest_version": 2,
+  "description": "Hate Speech Filter using html parser",
+  "browser_action": {
+    "default_popup": "index.html"
+  },
+  "permissions": [
+    "tabs",
+    "<all_urls>"
+  ]
+}
